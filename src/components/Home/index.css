@@ -1,0 +1,52 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile-image {
+    width: 250px;
+  }
+}
+
+.username {
+  color: #12022f;
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .username {
+    font-size: 30px;
+  }
+}
+
+.user-role {
+  color: #616e7c;
+  font-size: 16px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .user-role {
+    font-size: 18px;
+  }
+}
